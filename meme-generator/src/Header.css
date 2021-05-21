@@ -1,0 +1,21 @@
+
+.header {
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+    color: floralwhite;
+    display: flex;
+    background: linear-gradient(#191970, #003366);
+}
+
+.header > p {
+    padding-left: 350px;
+    align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header > img {
+    height: 20vh;
+    padding: 15px;
+}

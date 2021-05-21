@@ -1,0 +1,61 @@
+.meme-form {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.meme-form > button {
+    background-color: midnightblue;
+    border: none;
+    color: mintcream;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input {
+    font-size: 40px;
+}
+
+.meme-form > button:hover {
+    font-size: 43px;
+    transition: 200ms ease-in;
+    color: powderblue;
+    cursor: pointer;
+}
+
+.meme {
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    position: relative;
+}
+
+.meme > img {
+    height: 50vh;
+}
+
+.top {
+    position: absolute;
+    top: 0.5px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    left: 75px;
+}
+
+.bottom {
+    position: relative;
+    color: black;
+    bottom: 85px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    left: 190px;
+}
